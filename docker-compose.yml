@@ -1,0 +1,19 @@
+version: "2"
+services:
+  web:
+    build: .
+    ports:
+      - "__var_port__:80"
+    depends_on:
+      - db
+    volumes:
+      - ./project:/var/www/html
+  db:
+    image: mariadb:10.3
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d
+    environment:
+      MYSQL_DATABASE: "__DBNAME__"
+      MYSQL_USER: "__DBUSER__"
+      MYSQL_PASSWORD: "__DBPASSWORD__"
+      MYSQL_ROOT_PASSWORD: password

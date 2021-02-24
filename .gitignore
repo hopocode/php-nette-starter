@@ -1,0 +1,5 @@
+.DS_Store
+project/www_root/temp/
+project/www_root/log/
+deployment.log
+project/www/.htaccess

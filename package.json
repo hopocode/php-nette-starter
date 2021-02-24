@@ -1,0 +1,8 @@
+{
+  "name": "__var_PROJECT_NAME__",
+  "scripts": {
+    "start": "sh scripts/start.sh",
+    "stop": "sh ./scripts/stop.sh",
+    "deploy": "sh ./scripts/deploy.sh"
+  }
+}
