@@ -3,7 +3,7 @@ services:
   web:
     build: .
     ports:
-      - "__var_port__:80"
+      - "__DEV_PORT__:80"
     depends_on:
       - db
     volumes:
