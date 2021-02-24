@@ -1,5 +1,6 @@
 .DS_Store
-project/www_root/temp/
-project/www_root/log/
+project/temp/
+project/log/
 deployment.log
-project/www/.htaccess
+project/.htaccess
+project/vendro
