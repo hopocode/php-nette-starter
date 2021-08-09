@@ -4,3 +4,4 @@ project/log/
 deployment.log
 project/.htaccess
 project/vendro
+init/node_modules
