@@ -20,13 +20,13 @@ const runScript = async () => {
     DBPASSWORD: await question("Database password"),
   };
   const sftpProd = await question("Setup SFTP production connection? [Y/N]");
-  if (sftpProd === "Y") {
+  if (sftpProd.toUpperCase() === "Y") {
     data.SFTP_PROD_SERVER = await question("SFTP production host");
     data.SFTP_PROD_PASSWORD = await question("SFTP production user");
     data.SFTP_PROD_HOST = await question("SFTP production password");
   }
   const sftpDev = await question("Setup SFTP dev connection? [Y/N]");
-  if (sftpDev === "Y") {
+  if (sftpDev.toUpperCase() === "Y") {
     data.SFTP_DEV_SERVER = await question("SFTP dev host");
     data.SFTP_DEV_PASSWORD = await question("SFTP dev user");
     data.SFTP_DEV_HOST = await question("SFTP dev password");
