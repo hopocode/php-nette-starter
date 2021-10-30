@@ -15,5 +15,6 @@ cd $install_folder/init
 npm i
 node setup.js $install_folder
 rm -Rf init
+cd $install_folder
 echo "You show now init application by run: sh init.sh"
 echo "Than run applicaton by run: npm start"
