@@ -3,5 +3,5 @@ project/temp/
 project/log/
 deployment.log
 project/.htaccess
-project/vendro
+project/vendor
 init/node_modules
