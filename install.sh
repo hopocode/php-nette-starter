@@ -17,5 +17,8 @@ node setup.js $install_folder
 rm -Rf init
 cd $install_folder
 rm _README.md README.md
-echo "You show now init application by run: sh init.sh"
-echo "Than run applicaton by run: npm start"
+rm -Rf init
+echo ""
+echo "***************** COngratulation ***************"
+echo "You should now init application by run: sh init.sh"
+echo "After docker initialization start docker by run: npm docker:start"
