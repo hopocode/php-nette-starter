@@ -1,8 +1,9 @@
 {
   "name": "__PROJECT_NAME__",
   "scripts": {
-    "start": "sh scripts/start.sh",
-    "stop": "sh ./scripts/stop.sh",
+    "docker:start": "sh scripts/start.sh",
+    "docker:stop": "sh ./scripts/stop.sh",
+    "docker:login": "docker-compose exec web bash",
     "deploy:dev": "sh ./scripts/deploy_dev.sh",
     "deploy:prod": "sh ./scripts/deploy_prod.sh"
   }
