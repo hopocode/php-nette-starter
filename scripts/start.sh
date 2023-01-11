@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+echo "Starting app docker for development."
+echo "************* __PROJECT_NAME__ ***********"
+echo "******************************************"
+
 cd project/www
 rm .htaccess
 cp .htaccess.dev .htaccess

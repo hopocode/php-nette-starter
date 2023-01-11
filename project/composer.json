@@ -1,9 +1,17 @@
 {
 	"name": "nette/web-project",
 	"description": "Nette: Standard Web Project",
-	"keywords": ["nette"],
+	"keywords": [
+		"nette"
+	],
+	"version": "3.1.0",
 	"type": "project",
-	"license": ["MIT", "BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+	"license": [
+		"MIT",
+		"BSD-3-Clause",
+		"GPL-2.0",
+		"GPL-3.0"
+	],
 	"require": {
 		"php": ">= 7.2",
 		"nette/application": "^3.1",
@@ -30,5 +38,10 @@
 			"App\\": "app"
 		}
 	},
-	"minimum-stability": "stable"
+	"minimum-stability": "stable",
+	"config": {
+		"allow-plugins": {
+			"symfony/thanks": false
+		}
+	}
 }

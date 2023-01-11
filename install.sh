@@ -19,6 +19,6 @@ cd $install_folder
 rm _README.md README.md
 rm -Rf init
 echo ""
-echo "***************** COngratulation ***************"
+echo "***************** Congratulation ***************"
 echo "You should now init application by run: sh init.sh"
 echo "After docker initialization start docker by run: npm docker:start"

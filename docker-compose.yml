@@ -1,9 +1,9 @@
-version: "2"
+version: "3.1"
 services:
   web:
     build: .
     ports:
-      - "__DEV_PORT__:80"
+      - "8090:80"
     depends_on:
       - db
     volumes:

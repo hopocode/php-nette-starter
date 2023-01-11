@@ -1,4 +1,7 @@
 #!/bin/sh
+echo "Developmenrt deployment start."
+echo "************* __PROJECT_NAME__ ***********"
+echo "******************************************"
 cd project
 cp -R adminer www
 cp -R checker www

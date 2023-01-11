@@ -5,3 +5,4 @@ deployment.log
 project/.htaccess
 project/vendor
 init/node_modules
+node_modules
